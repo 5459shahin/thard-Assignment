@@ -1,328 +1,338 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Third Assignment</title>
 
-        <!-- tailwindcss cdn link -->
-        <script src="https://cdn.tailwindcss.com"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Assignment</title>
 
-        <!-- daisyUI cdn link    -->
-        <link href="https://cdn.jsdelivr.net/npm/daisyui@2.20.0/dist/full.css" rel="stylesheet" type="text/css" />
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-        <body>
-            <!--navbar section  -->
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <label tabindex="0" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+    <!-- tailwindcss cdn link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- daisyUI cdn link    -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.20.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!--navbar section  -->
+    <div class="navbar bg-base-100 px-9">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </label>
+                <ul tabindex="0"
+                    class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>Item 1</a></li>
+                    <li tabindex="0">
+                        <a class="justify-between">
+                            Parent
+                            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                             </svg>
-                        </label>
-                        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Item 1</a></li>
-                            <li tabindex="0">
-                                <a class="justify-between">
-                                    Parent
-                                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24">
-                                        <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                                    </svg>
-                                </a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                        </a>
+                        <ul class="p-2">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
                         </ul>
-                    </div>
-                    <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal p-0">
-                        <li><a>Home</a></li>
-                        <li tabindex="0"><a>Courses </a></li>
-                        <li><a>Success</a></li>
-                        <li><a>Success</a></li>
-                    </ul>
-                </div>
-                <div class="navbar-end">
-                    
-                    <div class="dropdown dropdown-end">
-                        <label tabindex="0" class="btn btn-ghost btn-circle avatar">
-                            <div class="w-10 rounded-full  mr-5">
-                            <img class=" mr-5" src="https://placeimg.com/80/80/people" />
-                            </div>
-                        </label>
-                        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li>
-                                <a class="justify-between">
-                                Profile
-                                <span class="badge">New</span>
-                                </a>
-                            </li>
-                            <li><a>Settings</a></li>
-                            <li><a>Logout</a></li>
-                        </ul>
-                    </div>
+                    </li>
+                    <li><a>Item 3</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost normal-case text-xl">online course</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal p-0">
+                <li><a>Home</a></li>
+                <li tabindex="0"><a>Courses </a></li>
+                <li><a>Success</a></li>
+                <li><a>Success</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
 
-                </div>
+            <div class="dropdown dropdown-end">
+                <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                    <div class="w-10 rounded-full  mr-5">
+                        <img class=" mr-5" src="https://placeimg.com/80/80/people" />
+                    </div>
+                </label>
+                <ul tabindex="0"
+                    class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    <li>
+                        <a class="justify-between">
+                            Profile
+                            <span class="badge">New</span>
+                        </a>
+                    </li>
+                    <li><a>Settings</a></li>
+                    <li><a>Logout</a></li>
+                </ul>
             </div>
 
-            <!-- banner carousel -->
-            <div class="carousel w-full">
-                <div id="slide1" class="carousel-item relative w-full">
-                    <div class="hero min-h-screen" style="background-image: url(../edTech-website/images/cover/cover-1.png);"> 
-                        <div class="hero-overlay bg-opacity-60"></div>
-                        <div class="hero-content text-center text-neutral-content">
-                            <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+    </div>
+
+    <!-- banner carousel -->
+    <div class="carousel w-full ">
+        <div id="slide1" class="carousel-item relative w-full">
+            <div class="hero min-h-screen" style="background-image: url(./edTech-website/images/cover/cover-1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
                     </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full">
-                   <!--  <img src="https://placeimg.com/800/200/arch" class="w-full" /> -->
-                <div class="hero min-h-screen" style="background-image: url(../edTech-website/images/cover/cover-2.jpg);">
-                    <div class="hero-overlay bg-opacity-60"></div>
-                    <div class="hero-content text-center text-neutral-content">
-                        <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                                quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
-                        </div>
-                    </div>
-                </div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a>
-                        <a href="#slide3" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                <div id="slide3" class="carousel-item relative w-full">
-                    <div class="hero min-h-screen" style="background-image: url(../edTech-website/images/cover/cover-3.jpg);">
-                        <div class="hero-overlay bg-opacity-60"></div>
-                        <div class="hero-content text-center text-neutral-content">
-                            <div class="max-w-md">
-                                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-                                    quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                                <button class="btn btn-primary">Get Started</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a>
-                        <a href="#slide4" class="btn btn-circle">❯</a>
-                    </div>
-                </div>
-                
             </div>
-
-            <!-- course containt -->
-
-            <main class="section py-9">
-               <h2 class="text-4xl font-bold text-center ">Discover Our Popular <br>
-               Courses</h2>
-               <p class="font-bold text-center ">t is a long established fact that a reader will be distracted by the readable <br>
-               content of a page when looking at its layout.</p>
-
-                <div class="grid sm:grid-cols-1 md:grid-cols-2 py-9 px-9 gap-4">
-
-                    <div class="card lg:card-side bg-base-100 shadow-xl">
-                        <figure><img src="./edTech-website/images/course/course-1.png" alt="Album"></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
-                            <p class="font-bold text-cyan-700">Price : 120$</p>
-                        </div>
-                    </div>
-                    <div class="card lg:card-side bg-base-100 shadow-xl">
-                        <figure><img src="./edTech-website/images/course/course-2.png" alt="Album"></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
-                            <p class="font-bold text-cyan-700">Price : 120$</p>
-                        </div>
-                    </div>
-                    <div class="card lg:card-side bg-base-100 shadow-xl">
-                        <figure><img src="./edTech-website/images/course/course-3.png" alt="Album"></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
-                            <p class="font-bold text-cyan-700">Price : 120$</p>
-                        </div>
-                    </div>
-                    <div class="card lg:card-side bg-base-100 shadow-xl">
-                        <figure><img src="./edTech-website/images/course/course-4.png" alt="Album"></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
-                            <p class="font-bold text-cyan-700">Price : 120$</p>
-                        </div>
-                    </div>
-                    <div class="card lg:card-side bg-base-100 shadow-xl">
-                        <figure><img src="./edTech-website/images/course/course-5.png" alt="Album"></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
-                            <p class="font-bold text-cyan-700">Price : 120$</p>
-                        </div>
-                    </div>
-                    <div class="card lg:card-side bg-base-100 shadow-xl">
-                        <figure><img src="./edTech-website/images/course/course-6.png" alt="Album"></figure>
-                        <div class="card-body">
-                            <h2 class="card-title">New album is released!</h2>
-                            <p>Click the button to listen on Spotiwhy app.</p>
-                            <p class="font-bold text-cyan-700">Price : 120$</p>
-                        </div>
-                    </div>
-                </div>
-            </main>
-
-           
-            <!-- ================================================================= -->
-        <div class="hero min-h-screen bg-base-200">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <div class="flax">
-                    <div>
-                        <h1 class="text-5xl font-bold">Box Office News!</h1>
-                        <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+            
+            <div class="hero min-h-screen" style="background-image: url(./edTech-website/images/cover/cover-2.jpg);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem
                             quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
                     </div>
-                    <div class="drawer drawer-end">
-                        <input id="my-drawer-4" type="checkbox" class="drawer-toggle mr-auto" />
-                        <div class="drawer-content ">
-                            <!-- Page content here -->
-                            <label for="my-drawer-4" class="drawer-button btn btn-primary">Open drawer</label>
-                        </div>
-                        <div class="drawer-side h-1/4">
-                            <label for="my-drawer-4" class="drawer-overlay"></label>
-                            <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
-                                <!-- Sidebar content here -->
-                                <li><a>Sidebar Item 1</a></li>
-                                <li><a>Sidebar Item 2</a></li>
-                            </ul>
-                        </div>
+                </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+            <div class="hero min-h-screen" style="background-image: url(./edTech-website/images/cover/cover-3.jpg);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                        <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                            exercitationem
+                            quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- course containt -->
+
+    <main class="section py-9 mx-9">
+        <h2 class="text-4xl font-bold text-center mt-3">Discover Our Popular <br>
+            Courses</h2>
+        <p class="font-bold text-center mt-3 mb-5">t is a long established fact that a reader will be distracted by the readable
+            <br>
+            content of a page when looking at its layout.</p>
+
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 py-9 px-9 gap-4">
+
+            <div class="card lg:card-side bg-base-100 shadow-xl">
+                <figure><img src="./edTech-website/images/course/course-1.png" alt="Album"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">New album is released!</h2>
+                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <p class="font-bold text-cyan-700">Price : 120$</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-base-100 shadow-xl">
+                <figure><img src="./edTech-website/images/course/course-2.png" alt="Album"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">New album is released!</h2>
+                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <p class="font-bold text-cyan-700">Price : 120$</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-base-100 shadow-xl">
+                <figure><img src="./edTech-website/images/course/course-3.png" alt="Album"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">New album is released!</h2>
+                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <p class="font-bold text-cyan-700">Price : 120$</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-base-100 shadow-xl">
+                <figure><img src="./edTech-website/images/course/course-4.png" alt="Album"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">New album is released!</h2>
+                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <p class="font-bold text-cyan-700">Price : 120$</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-base-100 shadow-xl">
+                <figure><img src="./edTech-website/images/course/course-5.png" alt="Album"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">New album is released!</h2>
+                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <p class="font-bold text-cyan-700">Price : 120$</p>
+                </div>
+            </div>
+            <div class="card lg:card-side bg-base-100 shadow-xl">
+                <figure><img src="./edTech-website/images/course/course-6.png" alt="Album"></figure>
+                <div class="card-body">
+                    <h2 class="card-title">New album is released!</h2>
+                    <p>Click the button to listen on Spotiwhy app.</p>
+                    <p class="font-bold text-cyan-700">Price : 120$</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- ================================================================= -->
+    <div class="hero  bg-base-200 h-2/5 mx-9 py-9 ">
+        <div class="hero-content flex-col lg:flex-row-reverse h-2/5">
+            <div class="flex h-2/5">
+                <div>
+                    <h2 class="text-5xl font-bold ">Ready to join?</h2>
+                    <p class="mt-5">It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout.</p>
+                </div>
+                <div class="drawer drawer-end">
+                    <input id="my-drawer-4" type="checkbox" class="drawer-toggle mr-auto" />
+                    <div class="drawer-content ">
+                        <!-- Page content here -->
+                        <label for="my-drawer-4" class="drawer-button btn btn-primary">Register Now</label>
+                    </div>
+                    <div class="drawer-side h-1/4">
+                        <label for="my-drawer-4" class="drawer-overlay"></label>
+                        <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+                            <!-- Sidebar content here -->
+                            <li><a>Sidebar Item 1</a></li>
+                            <li><a>Sidebar Item 2</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- ============================================ -->
-        <div class="collapse">
-            
-            <input type="checkbox" class="peer" />
-            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
-               
-            <div
-                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                What is Difference between Flexbox and grid?
-            </div>
-            <div
-                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                <p><strong>Grid is a </strong>two-dimensional layout system with rows and columns. It is also used for the responsive web
-                page. Grid-template-column is used for responsiveness for the device screen.<strong>Flex is a </strong> one-dimensional
-                layout. It works with all kinds of display devices and screen sizes. Flexbox mostly helps align content & move blocks.</p>
-            </div>
-        </div>
-        <div class="collapse">
-            
-            <input type="checkbox" class="peer" />
-            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
-               
-            <div
-                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                What are the difference between Bootstrap & Tailwind?
-            </div>
-            <div
-                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                <p><strong>Tailwind-</strong>A utility-first CSS framework packed with classes like
-                <code> flex, pt-4, text-center and rotate-90 </code> that can be composed to build any design, directly in your markup.
-                <br><strong>Bootstrap-</strong>A Component Based CSS framework opensource and totally free.</p>
-            </div>
-        </div>
-        <div class="collapse">
-            
-            <input type="checkbox" class="peer" />
-            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
-               
-            <div
-                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                What is css Box-model?
-            </div>
-            <div
-                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                <p><strong> The CSS box model </strong> is essentially a box that wraps around every HTML element. It consists of: margins,
-                borders, padding, and the actual content.</p>
-            </div>
-        </div>
-        <div class="collapse">
-            
-            <input type="checkbox" class="peer" />
-            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
-               
-            <div
-                class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                What is sementic Tag?
-            </div>
-            <div
-                class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
-                <p>Which elements have meaningful details are called <strong>semantic elements</strong>.Semantic elements are meaningful
-                elements. These tags provided meaning. Some semantic tags are nav, header, footer, aside, section, etc.</p>
-            </div>
-        </div>
-        
+    <!-- ============================================ -->
 
-                
+        <div class="question mx-9 py-9">
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                    What is Difference between Flexbox and grid?
+                </div>
+                <div class="collapse-content">
+                    <p> <strong>Grid is a </strong>two-dimensional layout system with rows and columns. It is also used for
+                        the
+                        responsive web
+                        page. Grid-template-column is used for responsiveness for the device screen.<strong>Flex is a
+                        </strong>
+                        one-dimensional
+                        layout. It works with all kinds of display devices and screen sizes. Flexbox mostly helps align
+                        content
+                        & move blocks.</p>
+                </div>
+            </div>
+            
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                    What are the difference between Bootstrap & Tailwind?
+                </div>
+                <div class="collapse-content">
+                    <p><strong>Tailwind-</strong>A utility-first CSS framework packed with classes like
+                        <code> flex, pt-4, text-center and rotate-90 </code> that can be composed to build any design,
+                        directly in your markup.
+                        <br><strong>Bootstrap-</strong>A Component Based CSS framework opensource and totally free.
+                    </p>
+                </div>
+            </div>
+            
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                    What is css Box-model?
+                </div>
+                <div class="collapse-content">
+                    <p><strong> The CSS box model </strong> is essentially a box that wraps around every HTML
+                        element. It
+                        consists of: margins,
+                        borders, padding, and the actual content.
+                    </p>
+                </div>
+            </div>
+            
+            
+            <div tabindex="0" class="collapse collapse-arrow border border-base-300 bg-base-100 rounded-box">
+                <div class="collapse-title text-xl font-medium">
+                    What is sementic Tag?
+                </div>
+                <div class="collapse-content">
+                    <p>
+                        Which elements have meaningful details are called <strong>semantic elements</strong>. Semantic
+                        elements are meaningful
+                        elements. These tags provided meaning. Some semantic tags are nav, header, footer, aside,
+                        section,
+                        etc.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-            <!--===================================================
+
+                <!--===================================================
                      footer section
             ======================================================== -->
-        <section class="footer">
-            <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
-                <div class="grid grid-flow-col gap-4">
-                    <a class="link link-hover">About us</a>
-                    <a class="link link-hover">Contact</a>
-                    <a class="link link-hover">Jobs</a>
-                    <a class="link link-hover">Press kit</a>
-                </div>
-                <div>
-                    <div class="grid grid-flow-col gap-4">
-                        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                                <path
-                                    d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
-                                </path>
-                            </svg></a>
-                        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                                <path
-                                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
-                                </path>
-                            </svg></a>
-                        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current">
-                                <path
-                                    d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
-                                </path>
-                            </svg></a>
-                    </div>
-                </div>
-                <div>
-                    <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
-                </div>
-            </footer>
-        </section>
 
-     </body>
+                <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded mt-9">
+                    <div class="grid grid-flow-col gap-4">
+                        <a class="link link-hover">About us</a>
+                        <a class="link link-hover">Contact</a>
+                        <a class="link link-hover">Jobs</a>
+                        <a class="link link-hover">Press kit</a>
+                    </div>
+                    <div>
+                        <div class="grid grid-flow-col gap-4">
+                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    class="fill-current">
+                                    <path
+                                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z">
+                                    </path>
+                                </svg></a>
+                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    class="fill-current">
+                                    <path
+                                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                                    </path>
+                                </svg></a>
+                            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    class="fill-current">
+                                    <path
+                                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                                    </path>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+                    </div>
+                </footer>
+
+
+</body>
+
 </html>
